@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Google Sans";
+}
+
+/* container */
+.container {
+  width: 370px;
+  height: 550px;
+  margin: 70px auto;
+  background: #ffffff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 3px 3px 2px rgb(87, 85, 85, 0.3);
+}
+.header {
+  background-image: url("img/bighero6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+}
+.clear {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.clear i:hover {
+  text-shadow: 1px 3px 5px #000;
+  cursor: pointer;
+  transform: rotate(45deg);
+}
+
+#date {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: rgb(8, 8, 8);
+  background-color: rgba(238, 238, 238, 0.7);
+  font-size: 2rem;
+}
+
+.refresh-clr {
+  color: white;
+}
+/* end of container */
+
+/* content */
+.content {
+  width: 370px;
+  height: 350px;
+  max-height: 350px;
+  background-color: #ffffe1;
+  overflow: auto;
+  position: relative;
+}
+
+.content::-webkit-scrollbar { 
+  display: none; 
+}
+
+#list {
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  list-style: none;
+  padding: 5px 20px;
+  position: relative;
+  top: 10px;
+  width: 330px;
+  line-height: 15px;
+  display: flex;
+  flex-flow: row wrap;
+  border-bottom: 1px solid #ccc;
+}
+
+.item .co {
+  margin-right: 10px;
+}
+
+.d-icon {
+  margin-left: auto;
+  font-size: 25px;
+}
+
+.item p.text {
+  margin-right: 60px;
+  font-size: 16px;
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: red;
+}
+
+.add-item {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 98%;
+  border-top: 1px solid rgba(68, 66, 66, 0.7);
+}
+
+.add-item i {
+  transform: translateY(7px);
+  margin-left: 4px;
+}
+
+#input {
+  width: 310px;
+  height: 35px;
+  padding-left: 5px;
+  margin-left: 5px;
+  background-color: transparent;
+  border: none;
+  padding-left: 10px;
+}
+
+#input:focus {
+  border: none;
+  outline: none;
+}
+
+.circle-clr {
+  color: rgb(54, 117, 199);
+}
+
+/* end of content */
