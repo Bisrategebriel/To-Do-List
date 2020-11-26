@@ -63,8 +63,8 @@
   position: relative;
 }
 
-.content::-webkit-scrollbar { 
-  display: none; 
+.content::-webkit-scrollbar {
+  display: none;
 }
 
 #list {
@@ -86,16 +86,19 @@
 
 .item .co {
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .d-icon {
   margin-left: auto;
   font-size: 25px;
+  cursor: pointer;
 }
 
 .item p.text {
   margin-right: 60px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .line-through {
